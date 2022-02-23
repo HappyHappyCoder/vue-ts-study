@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue,.ts src",
+    "lint-fix": "eslint --ext .js,.vue,.ts src --fix"
   },
   "dependencies": {
     "axios": "^0.26.0",
