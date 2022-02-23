@@ -8,13 +8,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.26.0",
     "element-plus": "^2.0.2",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
     "@vitejs/plugin-vue": "^2.2.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^8.5.0",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
+    "vue-eslint-parser": "^8.3.0",
     "vue-tsc": "^0.29.8"
   }
 }
